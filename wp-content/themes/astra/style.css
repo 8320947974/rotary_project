@@ -367,6 +367,7 @@ li { list-style: none; }
 }
 
 
+.product-list-main { padding: 50px 0; }
 
 .product-list-main .filter-buttons {
   display: flex;
@@ -402,7 +403,6 @@ li { list-style: none; }
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
 }
 
 .product-list-main li {
@@ -458,10 +458,11 @@ li { list-style: none; }
 	bottom: 0;
 	right: 0;
 	display: flex;
+	z-index: 9;
 }
 .product-list-main .product-info-wrapper .image-with-date .date span {
 	color: #fff;
-	background-color: #D70606;
+	background-color:  #00C0A3;
 	padding: 5px 10px;
 	border-radius: 5px;
 }

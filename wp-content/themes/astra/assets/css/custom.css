@@ -40,6 +40,13 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    z-index: 9;
+}
+.bsb-overlay-hover figcaption svg { fill: #00C0A3; }
+.bsb-overlay-hover figcaption h4 {
+    color: #00C0A3;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 .bsb-overlay-hover:hover figcaption {
