@@ -14,7 +14,7 @@ get_header(); ?>
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $args = array(
     'post_type'      => 'product', // Replace with your actual custom post type
-    'posts_per_page' => 3, // -1 to display all posts
+    'posts_per_page' => 1, // -1 to display all posts
     'orderby'        => 'date', // Order by date
     'order'          => 'DESC', // Descending order
     'paged'          => $paged
